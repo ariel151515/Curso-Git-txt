@@ -1,0 +1,82 @@
+Git sistema de control de versiones
+-------------------------------------
+
+
+tutorial Git
+------------------------
+https://player.vimeo.com/video/423852829
+https://www.youtube.com/watch?v=HiXLkL42tMU
+
+
+
+terminal Git bash
+-------------------
+cd .. para retroceder 
+cd desktop  para avnzar en carpetas o entrar en ellas
+cd proyect/  para avnzar en carpetas o entrar en ellas
+
+git init    ------ >> idica que voy a epezar a utilizar git (o crear el repositorio en la carpeta)
+
+
+ls  ---->> lista los archivos que se encuentran 
+pwd ---->>  para ver en que directoio estamos
+cd ---->>  para avabzar en una carpeta (ejemplo: cd proyecto)
+cd .. ---->>  para retroceder una carpeta
+
+
+
+
+
+comandos basicos
+---------------------
+git init    ------ >> idica que voy a epezar a utilizar git
+git add <file> --- >>  para poder pasar los archivos del working directory al staging area
+  git status ------ >>   para ver en que estado estan mis archivos ; working directory, staging area, repository
+  git diff index.html  ------ >> te enseña los cambios que se realizador
+git commit ------ >>   para pasar archivos del staging area al repository
+git push   ------ >>   para subir a  un repositorio remoto
+git pull  ------ >>    te trae los cambios que an hecho otros desarrolladores
+git clone  ------ >>  hace una copia desde el servidor central a mi computadora para comenzar a trabajar
+   git log  ------ >> una manera de diferenciar cada commit 
+git checkout -- index.html  ------ >> para descargar o desacer cambios
+.gitnignore  ------ >> destro del archivo se escriven todas las carpeta y archivos para ignorar
+git commit -m "he agregado un gitignore"   ------ >>  evito que se  habra el editor 
+git branch ------ >>  te muestra el proyecto en una sola linea (hay que crear una version alternativa del codigo (ejemplo: a la siguiente version alternativa
+   se le agrego un login))
+git branch ------ >> para listar versiones
+git branch login ------ >>  para crear version alternativa
+git checkout login ------ >> para comenzar a trabajar sobre la nueva rama , o version alternativa
+git add .  ------ >> agrega todos los archivos
+git add -A ------ >> agrega todo lo que encuentra en nuestro repositorio
+
+-----------------------------------------------------------
+
+
+-----------------------------------------------------------------
+cd desktop/
+git clone  (https://github.com/ariel151515/gitcurso-proyecto-primero.git)
+cd gitcurso-proyecto-primero (para entrar al pryecto)
+
+-------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/ariel151515/gitcurso-proyecto-primero.git  (le indicamos a donde vamos a almacenar el codigo)
+git push -u origin master (subimos las versiones al repositorio (todos los archivos))
+-----------------------------------------------------------------------------------
+
+
+
+-------------------------------------------------------------------------------------
+NOTA: al escribir git init estamos empezando a trabajar en el working directory, para luego poasarlo al
+staging area y luego al  repository
+------------------------------------------------------------------------------------
+
+en Git hay tres estados
+------ >>
+
+1)  working directory
+2)  staging area   
+3)  repository
