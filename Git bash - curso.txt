@@ -6,7 +6,7 @@ tutorial Git
 ------------------------
 https://player.vimeo.com/video/423852829
 https://www.youtube.com/watch?v=HiXLkL42tMU
-
+https://github.com/ariel151515/Curso.Prep.Henry/tree/master/01-Git/homework
 
 
 terminal Git bash
@@ -32,7 +32,7 @@ comandos basicos
 git init    ------ >> idica que voy a epezar a utilizar git
 git add <file> --- >>  para poder pasar los archivos del working directory al staging area
   git status ------ >>   para ver en que estado estan mis archivos ; working directory, staging area, repository
-  git diff index.html  ------ >> te enseña los cambios que se realizador
+  git diff index.html  ------ >> te enseÃ±a los cambios que se realizador
 git commit ------ >>   para pasar archivos del staging area al repository
 git push   ------ >>   para subir a  un repositorio remoto
 git pull  ------ >>    te trae los cambios que an hecho otros desarrolladores
